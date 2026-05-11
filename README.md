@@ -24,7 +24,7 @@
 
 ## Overview
 
-StediPay is a modular stablecoin payment infrastructure layer for neobank card products. It enables consumers to pay with MiCA-authorised EMTs (EURC, EUROe, EURCV, EURQ) through a standard Visa/Mastercard card, settling on-chain in near real-time.
+StediPay is a modular stablecoin payment orchestration layer for neobank card products. It enables consumers to pay with MiCA-authorised EMTs (EURC, EUROe, EURCV, EURQ) through a standard Visa/Mastercard card, settling on-chain in near real-time.
 
 StediPay's defining feature is the **Smart Swap Engine** — a MiCA-compliant mechanism that, at the moment of every card payment, scans real-time prices of MiCA-authorised same-currency stablecoins across whitelisted DEX pools. If a price improvement exists (i.e. the pool temporarily misprices one EMT relative to another), the engine executes an atomic swap to capture the spread and credits the surplus to the user as **transaction cashback** — a better effective exchange rate, not interest.
 
