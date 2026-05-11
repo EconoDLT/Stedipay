@@ -236,16 +236,6 @@ All statistics, financial projections, KPIs, revenue figures, user numbers, APY 
 
 StediPay has **no partnership, affiliation, endorsement, sponsorship, approval, communication, or commercial relationship of any kind** with any company, protocol, product, or brand mentioned anywhere in this project. This includes, without limitation:
 
-| Category                  | Companies / Protocols                                                                        |
-| ------------------------- | -------------------------------------------------------------------------------------------- |
-| Blockchain infrastructure | Chainlink, LayerZero, Polygon, Ethereum Foundation, Alchemy                                  |
-| Stablecoin issuers        | Circle (USDC/EURC), Société Générale-Forge (EURCV), Membrane Finance (EUROe), Quantoz (EURQ) |
-| DeFi protocols            | AAVE, Uniswap, Spark Protocol, MakerDAO, Curve Finance                                       |
-| Compliance tools          | Chainalysis, Elliptic, Notabene, Sygna Bridge                                                |
-| Payment networks          | Visa, Mastercard                                                                             |
-| BaaS providers            | Swan, Railsr                                                                                 |
-| Any other entity          | Any company, product, or brand referenced anywhere in this project                           |
-
 All brand names, product names, and trademarks are the **exclusive property of their respective owners**. They are referenced in this project solely for descriptive and illustrative purposes — to explain what a hypothetical real-world implementation _could_ use — under the doctrine of nominative fair use. No association, approval, endorsement, or sponsorship by any of these parties is implied or should be inferred.
 
 ### 4. No Financial or Legal Advice
