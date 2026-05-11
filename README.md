@@ -1,6 +1,6 @@
 # StediPay ⚡
 
-**Stablecoin Payment Infrastructure with Smart Swap Engine — for the Neobank Generation**
+**Stablecoin Payment Solution with Smart Swap Engine — for the Neobank Generation**
 
 [![License: BUSL-1.1](https://img.shields.io/badge/License-BUSL--1.1-orange.svg)](LICENSE)
 [![Copyright](https://img.shields.io/badge/%C2%A9%202024--2026-Hasret%20Ozan%20Sevim-blue.svg)](https://www.linkedin.com/in/hasret-ozan-sevim)
