@@ -7,7 +7,7 @@
 [![MiCA](https://img.shields.io/badge/MiCA-Design--Compliant-green)](https://eur-lex.europa.eu/eli/reg/2023/1114/oj)
 [![TFR](https://img.shields.io/badge/TFR%202023%2F1113-Travel%20Rule%20Ready-blue)](https://eur-lex.europa.eu/eli/reg/2023/1113/oj)
 
-> :warning: **LEGAL NOTICE — READ FIRST**
+> :warning: **Legal Notice**
 > StediPay is a pilot portfolio project by Hasret Ozan Sevim — PhD candidate (Blockchain and Distributed Ledger Technology with Finance and Econometrics specialization, University of Camerino and Catholic University of Sacred Heart) and researcher specialising in blockchain interoperability, on-chain finance, and tokenized assets.
 
 > **Portfolio / Pilot Notice:** All smart contracts are unaudited. Financial projections are hypothetical. Not legal advice.
