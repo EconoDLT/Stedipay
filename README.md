@@ -14,11 +14,11 @@
 
 > **Language Model / AI Assistance Notice:** This project is developed to contribute my personal portfolio and show my capabilities and skills. I utilized LLMs only to brainstorm the idea, optimize the steps of the project design and management, and optimize the code during the process. The gap that this project fills (a general and hypothetical framework of a stablecoin card with compliance to the Euro-zone countries and smart swap capabilities), the originality, the choice of mechanical and technical deployments, the choice of functions used in the smart contract deployment and the creation of the project files are specifically my own output. The statistics of the business projections are random and hypothetical.
 
-> **Technical Skills I Used For This Project:** Python, HTML, Streamlit, Pandas, NumPy, Plotly.
+> **Technical Skills Used For This Project:** Python, HTML, Streamlit, Pandas, NumPy, Plotly.
 
 > **The Background Knowledge Required For This Project:** Blockhain fundamentals (on-chain transactions, wallet types, network stacks), smart contracts & token standards, EU financia regulation, DeFi protocols (AAVE v3, Spark Protocol, Uniswap v4, Chainlink CCIP, LayerZero), Compliance & AML, financial product design (reserve management, yield farming, cashback models, liquidity buffers), legal analysis (ability to interpret regulatory texts and map them to technical implementation), economic modelling (APY calculations, risk management, spread analysis).
 
-> **In case you're interested to research, develop, deploy or manage a similar product, you can contact me via: hasretozan.sevim@unicatt.it**
+> **In case you're interested in researching, developing, deploying, or managing a similar product, you can contact me via: hasretozan.sevim@unicatt.it**
 
 ---
 
