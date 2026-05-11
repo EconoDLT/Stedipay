@@ -16,7 +16,7 @@
 
 > **Technical Skills Used For This Project:** Python, HTML, Streamlit, Pandas, NumPy, Plotly.
 
-> **The Background Knowledge Required For This Project:** Blockhain fundamentals (on-chain transactions, wallet types, network stacks), smart contracts & token standards, EU financia regulation, DeFi protocols (AAVE v3, Spark Protocol, Uniswap v4, Chainlink CCIP, LayerZero), Compliance & AML, financial product design (reserve management, yield farming, cashback models, liquidity buffers), legal analysis (ability to interpret regulatory texts and map them to technical implementation), economic modelling (APY calculations, risk management, spread analysis).
+> **The Background Knowledge Required For This Project:** Blockhain fundamentals (on-chain transactions, wallet types, network stacks), smart contracts & token standards, EU financia regulation, DeFi protocols (AAVE v3, Spark Protocol, Uniswap v2, v3, v4, Chainlink CCIP, LayerZero), Compliance & AML, financial product design (reserve management, yield farming, cashback models, liquidity buffers), legal analysis (ability to interpret regulatory texts and map them to technical implementation), economic modelling (APY calculations, risk management, spread analysis).
 
 > **In case you're interested in researching, developing, deploying, or managing a similar product, you can contact me via: hasretozan.sevim@unicatt.it**
 
@@ -45,8 +45,8 @@ Smart Swap Engine ← checks MiCA-authorised EMT pools in real time
 AI Agent (rules-bound · ERC-4337 · permission-scoped)
        ├── On-chain EMT settlement (Polygon PoS, ~2s)
        ├── Travel Rule data → beneficiary CASP (TFR Art. 14)
-       ├── Potential Yield farming (AAVE v3, Spark) via ERC-4626 Vault
-       ├── Cross-chain routing (CCIP, LayerZero)
+       ├── Potential Yield farming via ERC-4626 Vault
+       ├── Cross-chain routing
        └── DORA ICT log + CARF reporting record
 ```
 
@@ -122,8 +122,8 @@ At the moment of every card payment, the Smart Swap Engine:
 ├─────────────────────────────────────────────────────────────────────┤
 │  ON/OFF-RAMP      On-ramp liq. · Off-ramp liq. · Wallet/Custody    │
 ├─────────────────────────────────────────────────────────────────────┤
-│  BLOCKCHAIN       Polygon PoS · Ethereum L1 · CCIP Bridge           │
-│                   Uniswap v4 · Curve · AAVE v3 · Spark             │
+│  BLOCKCHAIN       Polygon PoS · Ethereum L1 · A Multi-Chain Bridge  │
+│                          Uniswap v2 · Curve ·                       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -136,7 +136,7 @@ At the moment of every card payment, the Smart Swap Engine:
 | `StediPaySwapEngine.sol` | Polygon          | Smart Swap Engine — EMT price scan, atomic swap, cashback |
 | `StediPayAgent.sol`      | Polygon          | Rules-bound AI agent module                               |
 | `StediPayVault.sol`      | ETH L1           | ERC-4626 yield vault                                      |
-| `StediPayBridge.sol`     | ETH L1 + Polygon | Chainlink CCIP / LayerZero adapter                        |
+| `StediPayBridge.sol`     | ETH L1 + Polygon | Two multi-chain bridges (primary and fallback)            |
 | `StediPayTravelRule.sol` | Polygon          | TFR compliance registry — IVMS101 packet hash log         |
 
 ### StediPaySwapEngine.sol — simplified interface
