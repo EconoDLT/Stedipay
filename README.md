@@ -16,7 +16,7 @@
 
 > **Technical Skills Used For This Project:** Python, HTML, Streamlit, Pandas, NumPy, Plotly.
 
-> **The Background Knowledge Required For This Project:** Blockhain fundamentals (on-chain transactions, wallet types, network stacks), smart contracts & token standards, EU financia regulation, DeFi protocols (AAVE v3, Spark Protocol, Uniswap v2, v3, v4, Chainlink CCIP, LayerZero), Compliance & AML, financial product design (reserve management, yield farming, cashback models, liquidity buffers), legal analysis (ability to interpret regulatory texts and map them to technical implementation), economic modelling (APY calculations, risk management, spread analysis).
+> **The Background Knowledge Required For This Project:** Blockhain fundamentals (on-chain transactions, wallet types, network stacks), smart contracts & token standards, EU financia regulation, DeFi protocols (AAVE, Spark, Uniswap, Curve, Chainlink CCIP, LayerZero etc.), Compliance & AML, financial product design (reserve management, yield farming, cashback models, liquidity buffers), legal analysis (ability to interpret regulatory texts and map them to technical implementation), economic modelling (APY calculations, risk management, spread analysis).
 
 > **In case you're interested in researching, developing, deploying, or managing a similar product, you can contact me via: hasretozan.sevim@unicatt.it**
 
