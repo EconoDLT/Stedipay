@@ -24,9 +24,9 @@
 
 ## Overview
 
-StediPay is a modular stablecoin payment orchestration layer for neobank card products. It enables consumers to pay with MiCA-authorised EMTs (EURC, EUROe, EURCV, EURQ) through a standard Visa/Mastercard card, settling on-chain in near real-time.
+StediPay is a modular stablecoin payment orchestration layer for neobank card products. It enables consumers to pay with MiCA-authorised EMTs (EURC, EUROe, EURCV, EURQ) through a standard card infrastructure provider, settling on-chain in near real-time.
 
-StediPay's defining feature is the **Smart Swap Engine** — a MiCA-compliant mechanism that, at the moment of every card payment, scans real-time prices of MiCA-authorised same-currency stablecoins across whitelisted DEX pools. If a price improvement exists (i.e. the pool temporarily misprices one EMT relative to another), the engine executes an atomic swap to capture the spread and credits the surplus to the user as **transaction cashback** — a better effective exchange rate, not interest.
+StediPay's defining feature is the **Smart Swap Engine**: a MiCA-compliant mechanism that, at the moment of every card payment, scans real-time prices of MiCA-authorised same-currency stablecoins across whitelisted DEX pools. If a price improvement exists (i.e. the pool temporarily misprices one EMT relative to another), the engine executes an atomic swap to capture the spread and credits the surplus to the user as **transaction cashback**, a better effective exchange rate, not interest.
 
 This is legally structured as a **best-execution service** under MiCA Art. 78 (obligation to obtain the best possible result for clients when executing orders), not as a yield-bearing stablecoin product prohibited by MiCA Art. 40/50. The engine only interacts with MiCA-authorised EMTs from a user-configurable whitelist of credible issuers.
 
@@ -61,8 +61,8 @@ At the moment of every card payment, the Smart Swap Engine:
 1. **Scans** real-time prices of all MiCA-authorised euro-pegged EMTs across whitelisted Uniswap v4 and Curve pools on Polygon PoS.
 2. **Compares** the current market price of each EMT pair (e.g. EURC/EUROe, EURC/EURCV) against the theoretical parity (1:1 for same-currency EMTs).
 3. **Executes** an atomic flash-swap if a spread above the minimum profitability threshold (0.05% — chosen to cover gas costs and slippage) exists.
-4. **Credits** the net surplus to the user's StediPay balance as instant cashback — a price improvement on the transaction, not passive interest.
-5. **Reverts** atomically if the swap would result in a loss — the user's payment is never at risk.
+4. **Credits** the net surplus to the user's StediPay balance as instant cashback, a price improvement on the transaction, not passive interest.
+5. **Reverts** atomically if the swap would result in a loss, the user's payment is never at risk.
 
 ### MiCA-authorised EMT whitelist (user-configurable, April 2026)
 
@@ -110,7 +110,7 @@ At the moment of every card payment, the Smart Swap Engine:
 │  USER LAYER       Card App / ERC-4337 Smart Account                 │
 │                   → Configure trusted EMT issuer whitelist          │
 ├─────────────────────────────────────────────────────────────────────┤
-│  NEOBANK LAYER    BaaS Issuer · Visa/MC · KYC/CDD · PSD3/PSR        │
+│  NEOBANK LAYER    BaaS Issuer · KYC/CDD · PSD3/PSR        │
 │                   MiCA CASP authorisation                           │
 ├─────────────────────────────────────────────────────────────────────┤
 │  STEDI PAY LAYER  SDK · Smart Swap Engine · AI Agent                │
