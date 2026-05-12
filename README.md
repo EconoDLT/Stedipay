@@ -60,7 +60,7 @@ AI Agent (rules-bound · ERC-4337 · permission-scoped)
 
 At the moment of every card payment, the Smart Swap Engine:
 
-1. **Scans** real-time prices of all MiCA-authorised euro-pegged EMTs across whitelisted Uniswap v4 and Curve pools on Polygon PoS.
+1. **Scans** real-time prices of all MiCA-authorised euro-pegged EMTs across whitelisted Uniswap and Curve pools on Polygon PoS.
 2. **Compares** the current market price of each EMT pair (e.g. EURC/EUROe, EURC/EURCV) against the theoretical parity (1:1 for same-currency EMTs).
 3. **Executes** an atomic flash-swap if a spread above the minimum profitability threshold (0.05% — chosen to cover gas costs and slippage) exists.
 4. **Credits** the net surplus to the user's StediPay balance as instant cashback, a price improvement on the transaction, not passive interest.
