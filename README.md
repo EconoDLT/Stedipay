@@ -10,7 +10,7 @@
 > :warning: **Legal Notice:**
 > StediPay is a pilot portfolio project by Hasret Ozan Sevim — PhD candidate (Blockchain and Distributed Ledger Technology with Finance and Econometrics specialization, University of Camerino and Catholic University of Sacred Heart) and researcher specialising in blockchain interoperability, on-chain finance, and tokenized assets.
 
-> **Portfolio / Pilot Notice:** All smart contracts are unaudited. Financial projections are hypothetical. Not legal advice.
+> **Portfolio / Pilot Notice:** All smart contracts are unaudited. Financial projections are hypothetical. Not legal advice. The project website and the application are not optimized for mobile, please visit the project pages on a PC browser.
 
 > **Language Model / AI Assistance Notice:** This project is developed to contribute my personal portfolio and show my capabilities and skills. I utilized LLMs only to brainstorm the idea, optimize the steps of the project design and management, and optimize the code during the process. The gap that this project fills (a general and hypothetical framework of a stablecoin card with compliance to the Euro-zone countries and smart swap capabilities), the originality, the choice of mechanical and technical deployments, the choice of functions used in the smart contract deployment and the creation of the project files are specifically my own output. The statistics of the business projections are random and hypothetical.
 
