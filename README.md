@@ -125,7 +125,7 @@ At the moment of every card payment, the Smart Swap Engine:
 │  ON/OFF-RAMP      On-ramp liq. · Off-ramp liq. · Wallet/Custody    │
 ├─────────────────────────────────────────────────────────────────────┤
 │  BLOCKCHAIN       Polygon PoS · Ethereum L1 · A Multi-Chain Bridge  │
-│                          Uniswap v2 · Curve ·                       │
+│                          Uniswap · Curve ·                          │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
