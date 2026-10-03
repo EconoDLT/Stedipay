@@ -2,7 +2,6 @@
 
 **Stablecoin Payment Solution with Smart Swap Engine**
 
-[![License: BUSL-1.1](https://img.shields.io/badge/License-BUSL--1.1-orange.svg)](https://github.com/EconoDLT/Stedipay/blob/main/LICENCE)
 [![Copyright](https://img.shields.io/badge/%C2%A9%202024--2026-Hasret%20Ozan%20Sevim-blue.svg)](https://www.linkedin.com/in/hasret-ozan-sevim)
 [![MiCA](https://img.shields.io/badge/MiCA-Design--Compliant-green)](https://eur-lex.europa.eu/eli/reg/2023/1114/oj)
 [![TFR](https://img.shields.io/badge/TFR%202023%2F1113-Travel%20Rule%20Ready-blue)](https://eur-lex.europa.eu/eli/reg/2023/1113/oj)
@@ -218,7 +217,7 @@ interface IStediPaySwapEngine {
 
 **© 2024–2026 Hasret Ozan Sevim. All rights reserved.**
 
-Licensed under the **Business Source License 1.1 (BUSL-1.1)**. Non-commercial/research use permitted. Commercial use requires a licence. See [LICENSE](LICENSE).
+Licensed. Non-commercial/research use permitted.
 
 ---
 
