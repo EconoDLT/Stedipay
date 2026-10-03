@@ -269,4 +269,4 @@ Tech: Python, R, Stata, web3.py, Solidity.
 
 ---
 
-_© 2024–2026 Hasret Ozan Sevim — Business Source License 1.1. Commercial use requires a licence._
+_© 2024–2026 Hasret Ozan Sevim — Licensed. Commercial use requires a licence._
